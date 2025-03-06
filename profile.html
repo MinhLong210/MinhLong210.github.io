@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Full Name] | PhD Student</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header h3 {
+            margin: 0.5rem 0;
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .project, .publication, .contribution {
+            margin-bottom: 1.5rem;
+        }
+        .project h4, .publication h4, .contribution h4 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        .project p, .publication p, .contribution p {
+            margin: 0.3rem 0;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .connect-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .connect-links a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .connect-links a:hover {
+            background-color: #3498db;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header h3 {
+                font-size: 1.2rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQHFSc1xUXOllw/profile-displayphoto-shrink_800_800/B56ZOY9E2gG8Ag-/0/1733437968882?e=1746662400&v=beta&t=slTf4u8YjM5dvax_Jvu7FvxR8Io3xz_G_E517eA6E9U" alt="Profile Picture">
+        <h1>Long Minh Bui</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <!-- <a href="#research">Research</a> -->
+        <!-- <a href="#projects">Projects</a> -->
+        <a href="#publications">Publications</a>
+        <a href="#contributions">Services</a>
+        <!-- <a href="#skills">Skills</a> -->
+        <!-- <a href="#connect">Connect</a> -->
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>📖 About Me</h2>
+            <ul>
+                <li>I'm a first-year PhD Student in Computer Science at Washington State University under the supervision of Professor <a href="https://htnghia87.github.io/">Nghia Hoang</a>. 
+                    I graduated from Hanoi University of Science and Technology with a bachelor in Applied Mathematics and Informatics.
+                    During my undergrad, I was fortunate to be an AI research resident at FPT Software in Hanoi, Vietnam.
+                </li>
+
+                <li>
+                    I'm interested in probabilistic machine learning with a focus on uncertainty quantification and applications in scientific domains. 
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- Research Projects Section
+        <section id="research">
+            <h2>🔬 Research Projects</h2>
+            <div class="project">
+                <h4><a href="https://github.com/your-username/project-repo-1">[Project Name 1]</a></h4>
+                <p><strong>Description</strong>: [Brief description of the project, e.g., "Developed a neural network model to predict protein folding using PyTorch."]</p>
+                <p><strong>Technologies</strong>: [e.g., Python, PyTorch, Pandas].</p>
+                <p><strong>Paper</strong>: <a href="[Link to publication/preprint]">[Publication Link]</a></p>
+                <p><strong>Status</strong>: [e.g., In Progress, Completed, Published].</p>
+            </div>
+            <div class="project">
+                <h4><a href="https://github.com/your-username/project-repo-2">[Project Name 2]</a></h4>
+                <p><strong>Description</strong>: [Brief description].</p>
+                <p><strong>Technologies</strong>: [e.g., MATLAB, NumPy].</p>
+                <p><strong>Paper</strong>: <a href="[Link to publication/preprint]">[Publication Link]</a></p>
+                <p><strong>Status</strong>: [e.g., In Progress].</p>
+            </div>
+        </section>
+
+         Other Projects Section -->
+        <!-- <section id="projects">
+            <h2>💻 Other Notable Projects</h2>
+            <div class="project">
+                <h4><a href="https://github.com/your-username/other-repo">[Project Name]</a></h4>
+                <p>[Brief description, e.g., "A web app for visualizing climate data using JavaScript and D3.js."]</p>
+            </div>
+            <div class="project">
+                <h4><a href="https://github.com/your-username/another-repo">[Project Name]</a></h4>
+                <p>[Brief description, e.g., "A Python script to automate data preprocessing for my research."]</p>
+            </div>
+        </section> -->
+
+        <!-- Publications Section -->
+    
+        <section id="publications">
+            <h2>📝 Publications</h2>
+            <div class="publication">
+                <h4><a href="https://arxiv.org/abs/2502.20525">Revisiting Kernel Attention with Correlated Gaussian Process Representation</a></h4>
+                <p><b>LM Bui</b>, TT Huu, D Dinh, TM Nguyen, TN Hoang</p>
+                <p>UAI 2024</p>
+                <p>GitHub: <a href="https://github.com/MinhLong210/CGP-Transformers">[Code]</a></p>
+            </div>
+            <div class="publication">
+                <h4><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10096107">A Probabilistic Framework for Pruning Transformers via a Finite Admixture of Keys</a></h4>
+                <p>Tan M Nguyen, Tam Nguyen, <b>Long Bui</b>, Hai Do, Duy Khuong Nguyen, Dung D Le, Hung Tran-The, Nhat Ho, Stan J Osher, Richard G Baraniuk</p>
+                <p>ICASSP 2023</p>
+                <p>GitHub: <a href="https://github.com/Fsoft-AIC/FiAKFormer">[Code]</a></p>
+            </div>
+        </section>
+
+        <!-- Contributions Section -->
+        <section id="contributions">
+            <h2>🌟 Services</h2>
+            <div class="contribution">
+                <p><strong>Reviewer</strong>: Neural Networks, AAAI 2025, UAI 2025.</p>
+            </div>
+        </section>
+
+        <!-- Let's Connect Section -->
+        <section id="connect">
+            <!-- <h2>🌐 Let's Connect!</h2> -->
+            <div class="connect-links">
+                <a href="www.linkedin.com/in/long-minh-2b0084210"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin"></a>
+                <a href="https://scholar.google.com/citations?user=KuML-SMAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-blue?style=flat&logo=google-scholar"></a>
+                <a href="mailto:minhlongbui2000@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=flat&logo=gmail"></a>
+            </div>
+        </section>
+    </div>
+
+    
+    <!-- <footer>
+        <p>&copy; [Year] [Your Full Name]. All rights reserved.</p>
+    </footer> -->
+</body>
+</html>
