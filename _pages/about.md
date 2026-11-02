@@ -17,7 +17,7 @@ I'm a third-year PhD Student in Computer Science at Washington State University 
 - **07/2026** Our paper "FracGRAND: Graph Neural Diffusion Meets Fractional Differential Equations" was accepted to Asilomar 2026.
 - **08/2026** Passed the PhD Preliminary Exam.
 - **05/2026** Passed the PhD Qualification Exam.
-- **04/2026** Our paper "Model Merging as Probabilistic Inference in FIne-Tuning Parameter Space" was accepted to UAI 2026.
+- **04/2026** Our paper "Model Merging as Probabilistic Inference in Fine-Tuning Parameter Space" was accepted to UAI 2026.
 - **02/2025** Awarded the EECS Graduate Fellowship Fund from the School of Electrical Engineering and Computer Science at Washington State University for the Spring 2025 semester.
 - **08/2024** Started my PhD in Computer Science at Washington State University.
 - **04/2024** Our paper "Revisiting Kernel Attention with Correlated Gaussian Process Representation" was accepted to UAI 2024.
