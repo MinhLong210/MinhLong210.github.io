@@ -13,6 +13,7 @@ I'm a third-year PhD Student in Computer Science at Washington State University 
 
 
 ## News
+- **11/2026** Awarded the EECS AWS Graduate Student Scholarship by the School of Electrical Engineering and Computer Science for the 2026-2027 academic year.
 - **09/2026** Our paper "CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs" was accepted to NeurIPS 2026.
 - **07/2026** Our paper "FracGRAND: Graph Neural Diffusion Meets Fractional Differential Equations" was accepted to Asilomar 2026.
 - **08/2026** Passed the PhD Preliminary Exam.
